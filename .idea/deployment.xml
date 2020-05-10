@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData">
+    <serverData>
+      <paths name="Remote Host (ae87ca89-c728-4bdf-845a-2262a35ce6d1)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/zhangzhilong/algorithm_test/" local="$PROJECT_DIR$" web="" />
+            <mapping local="" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
