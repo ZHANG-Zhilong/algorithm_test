@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData">
+  <component name="PublishConfigData" autoUpload="Always" serverName="Remote Host (ae87ca89-c728-4bdf-845a-2262a35ce6d1)" uploadOnCheckin="ae87ca89-c728-4bdf-845a-2262a35ce6d1">
     <serverData>
       <paths name="Remote Host (ae87ca89-c728-4bdf-845a-2262a35ce6d1)">
         <serverdata>
@@ -11,5 +11,7 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="Remote Host (ae87ca89-c728-4bdf-845a-2262a35ce6d1)" />
+    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>
