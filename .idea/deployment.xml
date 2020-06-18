@@ -2,12 +2,15 @@
 <project version="4">
   <component name="PublishConfigData" autoUpload="Always" serverName="Remote Host (ae87ca89-c728-4bdf-845a-2262a35ce6d1)" uploadOnCheckin="ae87ca89-c728-4bdf-845a-2262a35ce6d1">
     <serverData>
-      <paths name="Remote Host (ae87ca89-c728-4bdf-845a-2262a35ce6d1)">
+      <paths name="CentOS7_64_1 (7fcf9871-03ff-4f19-baa3-1ca7d5e5338f)">
         <serverdata>
           <mappings>
-            <mapping deploy="/home/zhangzhilong/algorithm_test/" local="$PROJECT_DIR$" web="" />
-            <mapping local="" />
+            <mapping deploy="/tmp/tmp.CYqPiSOsd0" local="$PROJECT_DIR$" />
           </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/真题中级班/class04/cmake-build-debug" />
+          </excludedPaths>
         </serverdata>
       </paths>
     </serverData>

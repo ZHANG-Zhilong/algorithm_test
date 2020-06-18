@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/code02.dir/Code02_IsRotateStr.cpp.o  -o code02 
