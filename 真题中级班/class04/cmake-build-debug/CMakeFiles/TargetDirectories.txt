@@ -1,5 +1,0 @@
-/tmp/tmp.37yX9DSD2u/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/tmp/tmp.37yX9DSD2u/cmake-build-debug/CMakeFiles/code02.dir
-/tmp/tmp.37yX9DSD2u/cmake-build-debug/CMakeFiles/code03.dir
-/tmp/tmp.37yX9DSD2u/cmake-build-debug/CMakeFiles/code04.dir
-/tmp/tmp.37yX9DSD2u/cmake-build-debug/CMakeFiles/edit_cache.dir

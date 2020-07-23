@@ -48,10 +48,10 @@ RM = /usr/local/clion-2020.1.1/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/tmp.CYqPiSOsd0
+CMAKE_SOURCE_DIR = /tmp/tmp.NyRoISDvEB
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/tmp.CYqPiSOsd0/cmake-build-debug
+CMAKE_BINARY_DIR = /tmp/tmp.NyRoISDvEB/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.CYqPiSOsd0/cmake-build-debug/CMakeFiles /tmp/tmp.CYqPiSOsd0/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.NyRoISDvEB/cmake-build-debug/CMakeFiles /tmp/tmp.NyRoISDvEB/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.CYqPiSOsd0/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.NyRoISDvEB/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,71 @@ clion/fast:
 	$(MAKE) -f CMakeFiles/clion.dir/build.make CMakeFiles/clion.dir/build
 .PHONY : clion/fast
 
+#=============================================================================
+# Target rules for targets named code02
+
+# Build rule for target.
+code02: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 code02
+.PHONY : code02
+
+# fast build rule for target.
+code02/fast:
+	$(MAKE) -f 真题中级班/class04/CMakeFiles/code02.dir/build.make 真题中级班/class04/CMakeFiles/code02.dir/build
+.PHONY : code02/fast
+
+#=============================================================================
+# Target rules for targets named code03
+
+# Build rule for target.
+code03: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 code03
+.PHONY : code03
+
+# fast build rule for target.
+code03/fast:
+	$(MAKE) -f 真题中级班/class04/CMakeFiles/code03.dir/build.make 真题中级班/class04/CMakeFiles/code03.dir/build
+.PHONY : code03/fast
+
+#=============================================================================
+# Target rules for targets named code04
+
+# Build rule for target.
+code04: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 code04
+.PHONY : code04
+
+# fast build rule for target.
+code04/fast:
+	$(MAKE) -f 真题中级班/class04/CMakeFiles/code04.dir/build.make 真题中级班/class04/CMakeFiles/code04.dir/build
+.PHONY : code04/fast
+
+#=============================================================================
+# Target rules for targets named code04_TopKTimesRealTime
+
+# Build rule for target.
+code04_TopKTimesRealTime: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 code04_TopKTimesRealTime
+.PHONY : code04_TopKTimesRealTime
+
+# fast build rule for target.
+code04_TopKTimesRealTime/fast:
+	$(MAKE) -f 真题中级班/class05/CMakeFiles/code04_TopKTimesRealTime.dir/build.make 真题中级班/class05/CMakeFiles/code04_TopKTimesRealTime.dir/build
+.PHONY : code04_TopKTimesRealTime/fast
+
+#=============================================================================
+# Target rules for targets named get_folder_tree
+
+# Build rule for target.
+get_folder_tree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 get_folder_tree
+.PHONY : get_folder_tree
+
+# fast build rule for target.
+get_folder_tree/fast:
+	$(MAKE) -f 真题中级班/class06/CMakeFiles/get_folder_tree.dir/build.make 真题中级班/class06/CMakeFiles/get_folder_tree.dir/build
+.PHONY : get_folder_tree/fast
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +224,11 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... clion"
+	@echo "... code02"
+	@echo "... code03"
+	@echo "... code04"
+	@echo "... code04_TopKTimesRealTime"
+	@echo "... get_folder_tree"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/tmp.NyRoISDvEB/真题中级班/class05/Code04_TopKTimesRealTime.cpp
+iostream
+-
+algorithm
+-
+utility
+-
+map
+-
+vector
+-
+functional
+-
+memory
+-
+
