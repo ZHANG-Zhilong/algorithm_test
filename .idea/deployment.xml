@@ -2,21 +2,14 @@
 <project version="4">
   <component name="PublishConfigData" autoUpload="Always" uploadOnCheckin="ae87ca89-c728-4bdf-845a-2262a35ce6d1">
     <serverData>
-      <paths name="ubuntu (77321075-90b6-4d59-b512-c0d92232cca1)">
+      <paths name="ubuntu (8c578b38-0cac-4596-9b19-4fd04eddc525)">
         <serverdata>
           <mappings>
-            <mapping deploy="/tmp/tmp.GouEzo2OVH" local="$PROJECT_DIR$" />
+            <mapping deploy="/tmp/tmp.H1awazV5zh" local="$PROJECT_DIR$" />
           </mappings>
           <excludedPaths>
             <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
           </excludedPaths>
-        </serverdata>
-      </paths>
-      <paths name="ubuntu1">
-        <serverdata>
-          <mappings>
-            <mapping deploy="./algorithm_test" local="$PROJECT_DIR$" web="/" />
-          </mappings>
         </serverdata>
       </paths>
     </serverData>

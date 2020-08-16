@@ -1,0 +1,42 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Code_02_SubArrayMaxSum",
+            "request": "launch",
+            "mainClass": "basic_class_08.Code_02_SubArrayMaxSum",
+            "projectName": "algorithm_test_5486a72d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Code_09_Knapsack",
+            "request": "launch",
+            "mainClass": "basic_class_07.Code_09_Knapsack",
+            "projectName": "algorithm_test_5486a72d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Code_04_Print_All_Permutations",
+            "request": "launch",
+            "mainClass": "basic_class_07.Code_04_Print_All_Permutations",
+            "projectName": "algorithm_test_5486a72d"
+        },
+        {
+            "name": "clang++ - 生成和调试活动文件",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "C/C++: clang++ build active file"
+        }
+    ]
+}
