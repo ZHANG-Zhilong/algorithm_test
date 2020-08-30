@@ -3,6 +3,8 @@
     "editor.minimap.enabled": false,
     "editor.mouseWheelZoom": true,
     "files.associations": {
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "typeinfo": "cpp",
+        "iostream": "cpp"
     }
 }

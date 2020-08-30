@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Code_01_Ugly_Number",
+            "request": "launch",
+            "mainClass": "Code_01_Ugly_Number",
+            "projectName": "algorithm_test_5486a72d"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Code_02_SubArrayMaxSum",
             "request": "launch",
             "mainClass": "basic_class_08.Code_02_SubArrayMaxSum",
