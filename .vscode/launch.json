@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Code_02_Max_Damage",
+            "request": "launch",
+            "mainClass": "Code_02_Max_Damage",
+            "projectName": "algorithm_test_5486a72d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Code_01_Valid_Expression",
+            "request": "launch",
+            "mainClass": "Code_01_Valid_Expression",
+            "projectName": "algorithm_test_5486a72d"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Code_01_Ugly_Number",
             "request": "launch",
             "mainClass": "Code_01_Ugly_Number",
