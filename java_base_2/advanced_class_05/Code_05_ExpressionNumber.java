@@ -89,20 +89,20 @@ public class Code_05_ExpressionNumber {
 		int[][] f = new int[exp.length][exp.length];
 		t[0][0] = exp[0] == '0' ? 0 : 1;
 		f[0][0] = exp[0] == '1' ? 0 : 1;
-		for (int i = 2; i < exp.length; i += 2) {
-			t[i][i] = exp[i] == '0' ? 0 : 1;
-			f[i][i] = exp[i] == '1' ? 0 : 1;
-			for (int j = i - 2; j >= 0; j -= 2) {
-				for (int k = j; k < i; k += 2) {
+		for (int col = 2; col < exp.length; col += 2) {
+			t[col][col] = exp[col] == '0' ? 0 : 1;
+			f[col][col] = exp[col] == '1' ? 0 : 1;
+			for (int row = col - 2; row >= 0; row -= 2) {
+				for (int k = row; k < col; k += 2) {
 					if (exp[k + 1] == '&') {
-						t[j][i] += t[j][k] * t[k + 2][i];
-						f[j][i] += (f[j][k] + t[j][k]) * f[k + 2][i] + f[j][k] * t[k + 2][i];
+						t[row][col] += t[row][k] * t[k + 2][col];
+						f[row][col] += (f[row][k] + t[row][k]) * f[k + 2][col] + f[row][k] * t[k + 2][col];
 					} else if (exp[k + 1] == '|') {
-						t[j][i] += (f[j][k] + t[j][k]) * t[k + 2][i] + t[j][k] * f[k + 2][i];
-						f[j][i] += f[j][k] * f[k + 2][i];
+						t[row][col] += (f[row][k] + t[row][k]) * t[k + 2][col] + t[row][k] * f[k + 2][col];
+						f[row][col] += f[row][k] * f[k + 2][col];
 					} else {
-						t[j][i] += f[j][k] * t[k + 2][i] + t[j][k] * f[k + 2][i];
-						f[j][i] += f[j][k] * f[k + 2][i] + t[j][k] * t[k + 2][i];
+						t[row][col] += f[row][k] * t[k + 2][col] + t[row][k] * f[k + 2][col];
+						f[row][col] += f[row][k] * f[k + 2][col] + t[row][k] * t[k + 2][col];
 					}
 				}
 			}

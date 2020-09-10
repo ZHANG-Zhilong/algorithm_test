@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Code_01_SubArrayMaxSum",
+            "request": "launch",
+            "mainClass": "Code_01_SubArrayMaxSum",
+            "projectName": "algorithm_test_5486a72d"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Code_05_ExpressionNumber",
+            "request": "launch",
+            "mainClass": "Code_05_ExpressionNumber",
+            "projectName": "algorithm_test_5486a72d"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Code_02_Max_Damage",
             "request": "launch",
             "mainClass": "Code_02_Max_Damage",
