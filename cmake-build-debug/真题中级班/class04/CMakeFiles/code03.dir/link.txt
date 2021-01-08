@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/code03.dir/Code03_SnackWays.cpp.o  -o code03 

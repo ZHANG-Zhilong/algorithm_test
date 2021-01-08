@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zhangzhilong/mygit/algorithm_test/cpp1_base_1/class01/code00_bubbleSort.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+

@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/code01_get_folder_tree.dir/Code01_GetFolderTree.cpp.o  -o code01_get_folder_tree 
