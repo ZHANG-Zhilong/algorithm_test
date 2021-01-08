@@ -1,1 +1,3 @@
-add_subdirectory(class01)
+add_subdirectory(
+        class01
+)

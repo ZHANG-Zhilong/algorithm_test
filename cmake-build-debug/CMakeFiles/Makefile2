@@ -55,129 +55,100 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/zhangzhilong/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+CMAKE_COMMAND = "/Users/zhangzhilong/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7319.72/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/zhangzhilong/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
+RM = "/Users/zhangzhilong/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7319.72/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zhangzhilong/Documents/my_git/algorithm_test
+CMAKE_SOURCE_DIR = /Users/zhangzhilong/git_my/algorithm_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zhangzhilong/Documents/my_git/algorithm_test/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/zhangzhilong/git_my/algorithm_test/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/clion.dir/all
-all: 基础初级cpp/all
+all: cpp1_base_1/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: 基础初级cpp/preinstall
+preinstall: cpp1_base_1/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/clion.dir/clean
-clean: 基础初级cpp/clean
+clean: cpp1_base_1/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory 基础初级cpp
+# Directory level rules for directory cpp1_base_1
 
 # Recursive "all" directory target.
-基础初级cpp/all: 基础初级cpp/class01/all
+cpp1_base_1/all: cpp1_base_1/class01/all
 
-.PHONY : 基础初级cpp/all
+.PHONY : cpp1_base_1/all
 
 # Recursive "preinstall" directory target.
-基础初级cpp/preinstall: 基础初级cpp/class01/preinstall
+cpp1_base_1/preinstall: cpp1_base_1/class01/preinstall
 
-.PHONY : 基础初级cpp/preinstall
+.PHONY : cpp1_base_1/preinstall
 
 # Recursive "clean" directory target.
-基础初级cpp/clean: 基础初级cpp/class01/clean
+cpp1_base_1/clean: cpp1_base_1/class01/clean
 
-.PHONY : 基础初级cpp/clean
+.PHONY : cpp1_base_1/clean
 
 #=============================================================================
-# Directory level rules for directory 基础初级cpp/class01
+# Directory level rules for directory cpp1_base_1/class01
 
 # Recursive "all" directory target.
-基础初级cpp/class01/all: 基础初级cpp/class01/CMakeFiles/code00.dir/all
+cpp1_base_1/class01/all: cpp1_base_1/class01/CMakeFiles/code00.dir/all
 
-.PHONY : 基础初级cpp/class01/all
+.PHONY : cpp1_base_1/class01/all
 
 # Recursive "preinstall" directory target.
-基础初级cpp/class01/preinstall:
+cpp1_base_1/class01/preinstall:
 
-.PHONY : 基础初级cpp/class01/preinstall
+.PHONY : cpp1_base_1/class01/preinstall
 
 # Recursive "clean" directory target.
-基础初级cpp/class01/clean: 基础初级cpp/class01/CMakeFiles/code00.dir/clean
+cpp1_base_1/class01/clean: cpp1_base_1/class01/CMakeFiles/code00.dir/clean
 
-.PHONY : 基础初级cpp/class01/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/clion.dir
-
-# All Build rule for target.
-CMakeFiles/clion.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion.dir/build.make CMakeFiles/clion.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion.dir/build.make CMakeFiles/clion.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangzhilong/Documents/my_git/algorithm_test/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target clion"
-.PHONY : CMakeFiles/clion.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/clion.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangzhilong/Documents/my_git/algorithm_test/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/clion.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangzhilong/Documents/my_git/algorithm_test/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/clion.dir/rule
-
-# Convenience name for target.
-clion: CMakeFiles/clion.dir/rule
-
-.PHONY : clion
-
-# clean rule for target.
-CMakeFiles/clion.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion.dir/build.make CMakeFiles/clion.dir/clean
-.PHONY : CMakeFiles/clion.dir/clean
+.PHONY : cpp1_base_1/class01/clean
 
 #=============================================================================
-# Target rules for target 基础初级cpp/class01/CMakeFiles/code00.dir
+# Target rules for target cpp1_base_1/class01/CMakeFiles/code00.dir
 
 # All Build rule for target.
-基础初级cpp/class01/CMakeFiles/code00.dir/all:
-	$(MAKE) $(MAKESILENT) -f 基础初级cpp/class01/CMakeFiles/code00.dir/build.make 基础初级cpp/class01/CMakeFiles/code00.dir/depend
-	$(MAKE) $(MAKESILENT) -f 基础初级cpp/class01/CMakeFiles/code00.dir/build.make 基础初级cpp/class01/CMakeFiles/code00.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangzhilong/Documents/my_git/algorithm_test/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target code00"
-.PHONY : 基础初级cpp/class01/CMakeFiles/code00.dir/all
+cpp1_base_1/class01/CMakeFiles/code00.dir/all:
+	$(MAKE) $(MAKESILENT) -f cpp1_base_1/class01/CMakeFiles/code00.dir/build.make cpp1_base_1/class01/CMakeFiles/code00.dir/depend
+	$(MAKE) $(MAKESILENT) -f cpp1_base_1/class01/CMakeFiles/code00.dir/build.make cpp1_base_1/class01/CMakeFiles/code00.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangzhilong/git_my/algorithm_test/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target code00"
+.PHONY : cpp1_base_1/class01/CMakeFiles/code00.dir/all
 
 # Build rule for subdir invocation for target.
-基础初级cpp/class01/CMakeFiles/code00.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangzhilong/Documents/my_git/algorithm_test/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 基础初级cpp/class01/CMakeFiles/code00.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangzhilong/Documents/my_git/algorithm_test/cmake-build-debug/CMakeFiles 0
-.PHONY : 基础初级cpp/class01/CMakeFiles/code00.dir/rule
+cpp1_base_1/class01/CMakeFiles/code00.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangzhilong/git_my/algorithm_test/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cpp1_base_1/class01/CMakeFiles/code00.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangzhilong/git_my/algorithm_test/cmake-build-debug/CMakeFiles 0
+.PHONY : cpp1_base_1/class01/CMakeFiles/code00.dir/rule
 
 # Convenience name for target.
-code00: 基础初级cpp/class01/CMakeFiles/code00.dir/rule
+code00: cpp1_base_1/class01/CMakeFiles/code00.dir/rule
 
 .PHONY : code00
 
 # clean rule for target.
-基础初级cpp/class01/CMakeFiles/code00.dir/clean:
-	$(MAKE) $(MAKESILENT) -f 基础初级cpp/class01/CMakeFiles/code00.dir/build.make 基础初级cpp/class01/CMakeFiles/code00.dir/clean
-.PHONY : 基础初级cpp/class01/CMakeFiles/code00.dir/clean
+cpp1_base_1/class01/CMakeFiles/code00.dir/clean:
+	$(MAKE) $(MAKESILENT) -f cpp1_base_1/class01/CMakeFiles/code00.dir/build.make cpp1_base_1/class01/CMakeFiles/code00.dir/clean
+.PHONY : cpp1_base_1/class01/CMakeFiles/code00.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

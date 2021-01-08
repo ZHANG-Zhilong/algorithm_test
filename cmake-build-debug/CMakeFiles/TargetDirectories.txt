@@ -1,8 +1,7 @@
-/Users/zhangzhilong/Documents/my_git/algorithm_test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/zhangzhilong/Documents/my_git/algorithm_test/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/zhangzhilong/Documents/my_git/algorithm_test/cmake-build-debug/CMakeFiles/clion.dir
-/Users/zhangzhilong/Documents/my_git/algorithm_test/cmake-build-debug/基础初级cpp/CMakeFiles/rebuild_cache.dir
-/Users/zhangzhilong/Documents/my_git/algorithm_test/cmake-build-debug/基础初级cpp/CMakeFiles/edit_cache.dir
-/Users/zhangzhilong/Documents/my_git/algorithm_test/cmake-build-debug/基础初级cpp/class01/CMakeFiles/rebuild_cache.dir
-/Users/zhangzhilong/Documents/my_git/algorithm_test/cmake-build-debug/基础初级cpp/class01/CMakeFiles/edit_cache.dir
-/Users/zhangzhilong/Documents/my_git/algorithm_test/cmake-build-debug/基础初级cpp/class01/CMakeFiles/code00.dir
+/Users/zhangzhilong/git_my/algorithm_test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/zhangzhilong/git_my/algorithm_test/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/zhangzhilong/git_my/algorithm_test/cmake-build-debug/cpp1_base_1/CMakeFiles/rebuild_cache.dir
+/Users/zhangzhilong/git_my/algorithm_test/cmake-build-debug/cpp1_base_1/CMakeFiles/edit_cache.dir
+/Users/zhangzhilong/git_my/algorithm_test/cmake-build-debug/cpp1_base_1/class01/CMakeFiles/rebuild_cache.dir
+/Users/zhangzhilong/git_my/algorithm_test/cmake-build-debug/cpp1_base_1/class01/CMakeFiles/edit_cache.dir
+/Users/zhangzhilong/git_my/algorithm_test/cmake-build-debug/cpp1_base_1/class01/CMakeFiles/code00.dir
